@@ -34,9 +34,9 @@ This Arduino-based system automates plant irrigation by monitoring soil moisture
 | D3               | Relay IN                 |
 | 5V & GND         | Sensor + Relay Power     |
 
-### 🖼️ Circuit Diagram
+### Circuit Diagram
 
-![Circuit Diagram]()
+![Circuit Diagram](connections.png)
 
 ---
 
