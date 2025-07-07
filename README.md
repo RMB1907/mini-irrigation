@@ -1,43 +1,35 @@
 # Automatic Plant Watering System using Arduino
 
-This Arduino-based system automates plant irrigation by monitoring soil moisture levels in real-time and activating a water pump via a relay module when the soil becomes too dry. Ideal for smart gardening and DIY home automation projects.
+An Arduino-based system that monitors soil moisture and controls a water pump via a relay. The pump activates when moisture falls below a threshold and stops when sufficient moisture is detected.
 
 ---
 
-## Components Required
+## Components
 
-| No. | Component                     |
-|-----|-------------------------------|
-| 1.  | Arduino UNO                   |
-| 2.  | 5V Relay Module               |
-| 3.  | Water Pump and Tube/Pipe      |
-| 4.  | Soil Moisture Sensor          |
-| 5.  | Jumper Wires                  |
-
----
-
-## How It Works
-
-- The **soil moisture sensor** continuously monitors the water content of the soil.
-- If the moisture level falls below a set threshold, the **relay module** turns on the **water pump**.
-- Moisture readings and pump status are displayed on the **Serial Monitor**.
-- The system ensures plants are watered only when necessary, preventing both over- and under-watering.
+| No. | Component              |
+|-----|------------------------|
+| 1   | Arduino UNO            |
+| 2   | 5V relay module        |
+| 3   | Soil moisture sensor   |
+| 4   | Mini water pump        |
+| 5   | Tubing                 |
+| 6   | Jumper wires           |
 
 ---
 
-## Circuit Connections
+## Pin Connections
 
-| Arduino Pin      | Connected To            |
-|------------------|--------------------------|
-| A0               | Soil Sensor (Analog)     |
-| D6               | Soil Sensor (Digital)    |
-| D3               | Relay IN                 |
-| 5V & GND         | Sensor + Relay Power     |
+| Arduino Pin | Connected to           |
+|-------------|------------------------|
+| A0          | Soil sensor (analog)   |
+| D6          | Soil sensor (digital)  |
+| D3          | Relay IN               |
+| 5V, GND     | Sensor and relay power |
 
-### Circuit Diagram
+### Diagram
 
-![Circuit Diagram](connections.png)
+<img src="./connections.png" width="400"/>
+
 
 ---
-
 
